@@ -6,5 +6,3 @@ auto_class_weights: 'Balanced'
 n_splits: 5
 metrics: ['f1', 'roc_auc']
 n_jobs: -1
-C: 1
-penalty: 'l2'
