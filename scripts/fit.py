@@ -58,5 +58,5 @@ def fit_model():
     joblib.dump(pipeline, model_path)
 
 
-if name == 'main':
+if __name__ == '__main__':
     fit_model()
